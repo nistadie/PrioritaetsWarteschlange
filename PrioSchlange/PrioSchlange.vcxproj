@@ -111,6 +111,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="Environment.h" />
+    <ClInclude Include="PQElement.h" />
+    <ClInclude Include="PrioSchlange.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="SelectionSort.h" />
+    <ClInclude Include="Sequence.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PQElement.cpp" />
+    <ClCompile Include="PrioSchlange.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="SelectionSort.cpp" />
+    <ClCompile Include="Sequence.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

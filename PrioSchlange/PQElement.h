@@ -22,7 +22,8 @@ public:
     PQElement(); //------------------------------------------- Standardkonstruktor
     ~PQElement(); //------------------------------------------ Standarddestruktor
     int priority() const; //---------------------------------- Gebe die Priorität des PQElementes zurück
-    void set_number(int);
+	int get_number() const; //-------------------------------- Gibt die Nummer es Elementes zurück
+    void set_number(int); //---------------------------------- Weißt dem Element eine Nummer zu
     void set_priority(int); //-------------------------------- Weise dem Element eine neue Priorität zu
     bool operator < (const PQElement&) const; //-------------- Vergleicht, ob das Linke Element größer ist als das rechte und gibt einen Wahrheitswert zurück
     

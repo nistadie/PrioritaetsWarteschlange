@@ -72,8 +72,8 @@ void Sequence::restore(string fname) {
 	this->resetStats();
 	for (int i = 0; i < size; i++) {
 		int val;
-                cout<<val<<endl;
 		fs >> val; a[i] = val;
+		//cout << val << endl;
 	}
 }
 
